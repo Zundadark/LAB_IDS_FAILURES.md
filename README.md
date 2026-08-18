@@ -48,7 +48,7 @@
 1. В конец файла добавлен XML-блок для чтения локального текстового JSON-файла Suricata:
    ```xml
    <localfile>
-     <location>C:\Program Files\(\Suricata\log\eve.\)json</location>
+     <location>C:\Program Files\Suricata\log\eve.json</location>
      <log_format>json</log_format>
    </localfile>
    ```
