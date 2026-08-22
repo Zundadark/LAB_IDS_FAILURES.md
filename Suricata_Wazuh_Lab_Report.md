@@ -1,4 +1,4 @@
-# Лабораторная: разворачиваем Suricata IDS и подключаем к Wazuh
+# Разворачиваем Suricata IDS и подключаем к Wazuh
 
 **Дата:** 23 августа 2026
 **Стенд:** Ubuntu Server (wazuh-server, 192.168.3.49) в VirtualBox, бридж-сеть
