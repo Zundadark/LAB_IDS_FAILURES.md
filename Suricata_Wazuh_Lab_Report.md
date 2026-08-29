@@ -1,4 +1,4 @@
-# Разворачиваем Suricata IDS и подключаем к Wazuh
+# Разворачиваем Suricata IDS на Linux и подключаем к Wazuh
 
 **Дата:** 23 августа 2026
 **Стенд:** Ubuntu Server (wazuh-server, 192.168.3.49) в VirtualBox, бридж-сеть
@@ -75,6 +75,7 @@ alert tcp any any -> any 22 (msg:"SSH Bruteforce Attempt"; flow:to_server; thres
 ```
 
 Это правило сработает только на 6-й попытке за минуту с одного источника — а не на каждом отдельном пакете.
+Однако в данной лабе threshold использоваться не будет.
 
 ---
 
